@@ -33,8 +33,7 @@ public class LineComapre {
         double length2 = Math.sqrt(((x4 - x3) * (x4 - x3)) + ((y4 - y3) * (y4 - y3)));
         System.out.println(length2);
 
-
-
+        
         if( (Double.toString(length1).compareTo(Double.toString(length2))) ==0){
             System.out.println("Both lines are equal");
         } else if ((Double.toString(length1).compareTo(Double.toString(length2))) >0) {
